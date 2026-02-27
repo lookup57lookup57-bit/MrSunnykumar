@@ -13,8 +13,8 @@ from aiogram.enums import ParseMode
 
 router = Router()
 
-ALLOWED_GROUP = -1003459867774
-OWNER_ID = 6320782528
+ALLOWED_GROUP = -1003757469842
+OWNER_ID = 7323192068
 PROXY_FILE = "proxies.json"
 
 HEADERS = {
