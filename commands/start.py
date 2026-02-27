@@ -5,8 +5,8 @@ from aiogram.enums import ParseMode
 
 router = Router()
 
-ALLOWED_GROUP = -1003459867774
-OWNER_ID = 8315528188
+ALLOWED_GROUP = -1003757469842
+OWNER_ID = 7323192068
 
 def check_access(msg: Message) -> bool:
     if msg.chat.id == ALLOWED_GROUP:
@@ -57,3 +57,4 @@ async def help_handler(msg: Message):
         "「❃」 𝗘𝘅𝗮𝗺𝗽𝗹𝗲 : <code>4242424242424242|12|25|123</code></blockquote>"
     )
     await msg.answer(help_text, parse_mode=ParseMode.HTML)
+
